@@ -1,0 +1,1250 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.ui.documentation">
+  <module name="sap/ui/documentation/demoapps/Component.js" size="925" compressedSize="629">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/documentation/demoapps/model/libraryData.js"/>
+      <module name="sap/ui/documentation/demoapps/model/models.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/all.js" size="396" compressedSize="313" raw="true">
+  </module>
+  <module name="sap/ui/documentation/demoapps/controller/App.controller.js" size="9294" compressedSize="3988">
+    <description>global Promise</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/documentation/demoapps/model/formatter.js"/>
+      <module name="sap/ui/documentation/demoapps/model/sourceFileDownloader.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/i18n/i18n.properties" size="1405">
+  </module>
+  <module name="sap/ui/documentation/demoapps/manifest.json" size="1159">
+  </module>
+  <module name="sap/ui/documentation/demoapps/model/formatter.js" size="1746" compressedSize="717">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/model/libraryData.js" size="5634" compressedSize="1665">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/library.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/model/models.js" size="473" compressedSize="376">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/model/sourceFileDownloader.js" size="769" compressedSize="485">
+    <description>global Promise</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/view/App.view.xml" size="4263">
+    <requires>
+      <module name="sap/m/App.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/InputListItem.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SelectDialog.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/demoapps/controller/App.controller.js"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml" size="1285">
+    <requires>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml" size="275">
+    <requires>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml" size="1372">
+    <requires>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/library-preload.js" size="285670">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="jquery.sap.strings.js"/>
+      <module name="sap/m/App.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/CheckBox.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FeedListItem.js"/>
+      <module name="sap/m/FlexBox.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/FormattedText.js"/>
+      <module name="sap/m/GroupHeaderListItem.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/IconTabHeader.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/InputListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/Menu.js"/>
+      <module name="sap/m/MenuButton.js"/>
+      <module name="sap/m/MenuItem.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessagePage.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/NavContainer.js"/>
+      <module name="sap/m/ObjectAttribute.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/PageAccessibleLandmarkInfo.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/SelectDialog.js"/>
+      <module name="sap/m/SplitApp.js"/>
+      <module name="sap/m/SplitAppMode.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/StandardTreeItem.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/Tree.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsFilterItem.js"/>
+      <module name="sap/m/ViewSettingsItem.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/m/routing/Router.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/ExtensionPoint.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ResizeHandler.js"/>
+      <module name="sap/ui/core/Title.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+      <module name="sap/ui/core/util/LibraryInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.controller.js"/>
+      <module name="sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/layout/form/Form.js"/>
+      <module name="sap/ui/layout/form/FormContainer.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/layout/form/GridLayout.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/uxap/ObjectPageSubSection.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/documentation/demoapps/Component.js"/>
+      <module name="sap/ui/documentation/demoapps/all.js"/>
+      <module name="sap/ui/documentation/demoapps/controller/App.controller.js"/>
+      <module name="sap/ui/documentation/demoapps/manifest.json"/>
+      <module name="sap/ui/documentation/demoapps/model/formatter.js"/>
+      <module name="sap/ui/documentation/demoapps/model/libraryData.js"/>
+      <module name="sap/ui/documentation/demoapps/model/models.js"/>
+      <module name="sap/ui/documentation/demoapps/model/sourceFileDownloader.js"/>
+      <module name="sap/ui/documentation/demoapps/view/App.view.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml"/>
+      <module name="sap/ui/documentation/library.js"/>
+      <module name="sap/ui/documentation/manifest.json"/>
+      <module name="sap/ui/documentation/sdk/Component.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetail.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/App.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Code.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Controls.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ControlsMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/DemoApps.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Downloads.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Entity.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ErrorHandler.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Group.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/MasterTreeBaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Sample.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/SearchPage.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetail.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Welcome.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ConfigUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/EntityInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/TreeUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js"/>
+      <module name="sap/ui/documentation/sdk/controls/ParamText.js"/>
+      <module name="sap/ui/documentation/sdk/controls/Search.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/manifest.json"/>
+      <module name="sap/ui/documentation/sdk/model/models.js"/>
+      <module name="sap/ui/documentation/sdk/util/DocumentationRouter.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/documentation/sdk/view/AboutDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetail.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/App.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Code.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Controls.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ControlsMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DemoApps.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Downloads.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Empty.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Entity.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Group.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/NotFound.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ReleaseNotes.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Sample.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/SearchPage.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicDetail.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Welcome.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml"/>
+    </includes>
+  </module>
+  <module name="sap/ui/documentation/library-preload.json" size="0">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="jquery.sap.strings.js"/>
+      <module name="sap/m/App.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/CheckBox.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FeedListItem.js"/>
+      <module name="sap/m/FlexBox.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/FormattedText.js"/>
+      <module name="sap/m/GroupHeaderListItem.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/IconTabHeader.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/InputListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/Menu.js"/>
+      <module name="sap/m/MenuButton.js"/>
+      <module name="sap/m/MenuItem.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/MessagePage.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/NavContainer.js"/>
+      <module name="sap/m/ObjectAttribute.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/PageAccessibleLandmarkInfo.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/SelectDialog.js"/>
+      <module name="sap/m/SplitApp.js"/>
+      <module name="sap/m/SplitAppMode.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/StandardTreeItem.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/Tree.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsFilterItem.js"/>
+      <module name="sap/m/ViewSettingsItem.js"/>
+      <module name="sap/m/library-preload.json"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/m/routing/Router.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/ExtensionPoint.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ResizeHandler.js"/>
+      <module name="sap/ui/core/Title.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/core/library-preload.json"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+      <module name="sap/ui/core/util/LibraryInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.controller.js"/>
+      <module name="sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/layout/form/Form.js"/>
+      <module name="sap/ui/layout/form/FormContainer.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/layout/form/GridLayout.js"/>
+      <module name="sap/ui/layout/library-preload.json"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/uxap/ObjectPageSubSection.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/documentation/demoapps/Component.js"/>
+      <module name="sap/ui/documentation/demoapps/all.js"/>
+      <module name="sap/ui/documentation/demoapps/controller/App.controller.js"/>
+      <module name="sap/ui/documentation/demoapps/manifest.json"/>
+      <module name="sap/ui/documentation/demoapps/model/formatter.js"/>
+      <module name="sap/ui/documentation/demoapps/model/libraryData.js"/>
+      <module name="sap/ui/documentation/demoapps/model/models.js"/>
+      <module name="sap/ui/documentation/demoapps/model/sourceFileDownloader.js"/>
+      <module name="sap/ui/documentation/demoapps/view/App.view.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml"/>
+      <module name="sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml"/>
+      <module name="sap/ui/documentation/library.js"/>
+      <module name="sap/ui/documentation/manifest.json"/>
+      <module name="sap/ui/documentation/sdk/Component.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetail.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/App.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Code.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Controls.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ControlsMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/DemoApps.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Downloads.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Entity.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ErrorHandler.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Group.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/MasterTreeBaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Sample.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/SearchPage.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetail.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicMaster.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Welcome.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ConfigUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/EntityInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/TreeUtil.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js"/>
+      <module name="sap/ui/documentation/sdk/controls/ParamText.js"/>
+      <module name="sap/ui/documentation/sdk/controls/Search.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/manifest.json"/>
+      <module name="sap/ui/documentation/sdk/model/models.js"/>
+      <module name="sap/ui/documentation/sdk/util/DocumentationRouter.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/documentation/sdk/view/AboutDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetail.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ApiMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/App.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Code.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Controls.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ControlsMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DemoApps.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Downloads.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Empty.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Entity.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Group.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/NotFound.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/ReleaseNotes.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Sample.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/SearchPage.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicDetail.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/TopicMaster.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/Welcome.view.xml"/>
+      <module name="sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml"/>
+      <module name="sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml"/>
+    </includes>
+  </module>
+  <module name="sap/ui/documentation/library.js" size="4312" compressedSize="1605">
+    <description>Initialization Code and shared classes of library sap.ui.documentation.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/core/library.js"/>
+      <module name="sap/ui/core/util/LibraryInfo.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/manifest.json" size="1205">
+  </module>
+  <module name="sap/ui/documentation/sdk/Component.js" size="12396" compressedSize="5762">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/UIComponent.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ErrorHandler.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ConfigUtil.js"/>
+      <module name="sap/ui/documentation/sdk/model/models.js"/>
+      <module name="sap/ui/documentation/sdk/util/DocumentationRouter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ApiDetail.controller.js" size="39920" compressedSize="17160">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/uxap/ObjectPageSubSection.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js" size="7881" compressedSize="4072">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js" size="1367" compressedSize="676">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ApiMaster.controller.js" size="3277" compressedSize="1892">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/MasterTreeBaseController.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/App.controller.js" size="21681" compressedSize="13872">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/m/SplitAppMode.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/ResizeHandler.js"/>
+      <module name="sap/ui/documentation/library.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/BaseController.js" size="6479" compressedSize="2753">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+      <module name="sap/ui/documentation/library.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Code.controller.js" size="10339" compressedSize="5804">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Controls.controller.js" size="1886" compressedSize="971">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ControlsMaster.controller.js" size="20321" compressedSize="10729">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.storage.js"/>
+      <module name="sap/m/GroupHeaderListItem.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/Component.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/DemoApps.controller.js" size="894" compressedSize="536">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Downloads.controller.js" size="760" compressedSize="499">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Entity.controller.js" size="10357" compressedSize="5237">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/EntityInfo.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/ErrorHandler.js" size="2313" compressedSize="1086">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MessageBox.js"/>
+      <module name="sap/ui/base/Object.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Group.controller.js" size="1020" compressedSize="538">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/MasterTreeBaseController.js" size="5078" compressedSize="2215">
+    <description>Common controller for the API Reference &amp; Documentation master controllers (as they both use a tree)</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/TreeUtil.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Sample.controller.js" size="8452" compressedSize="4608">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/SearchPage.controller.js" size="8401" compressedSize="4571">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/GroupHeaderListItem.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/TopicDetail.controller.js" size="3346" compressedSize="2065">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js"/>
+      <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js" size="1235" compressedSize="678">
+    <description>global location</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/TopicMaster.controller.js" size="3946" compressedSize="2113">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/MasterTreeBaseController.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/Welcome.controller.js" size="2168" compressedSize="1103">
+    <description>global history</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js" size="3740" compressedSize="1472">
+    <description>Provides reuse functionality for reading documentation from api.json files (as created by the UI5 JSDoc3 template/plugin)</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/ConfigUtil.js" size="1983" compressedSize="1246">
+    <description>Utility class that facilitates route configuration handling</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/ControlsInfo.js" size="11259" compressedSize="5690">
+    <description>Provides information about 'explored' samples.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/library.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/EntityInfo.js" size="9682" compressedSize="4951">
+    <description>Provides reuse functionality for reading documentation from metamodel entities</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/documentation/sdk/controller/util/APIInfo.js"/>
+      <module name="sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/JSDocUtil.js" size="2796" compressedSize="1097">
+    <description>Provides reuse functionality for reading documentation from api.json files (as created by the UI5 JSDoc3 template/plugin)</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="jquery.sap.strings.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/TreeUtil.js" size="1816" compressedSize="762">
+    <description>Utility class that helps find the path to a specific node in a tree</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js" size="4551" compressedSize="1886">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controls/ParamText.js" size="901" compressedSize="542">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Text.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controls/Search.js" size="7315" compressedSize="3120">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/core/Control.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/controls/TitleLink.js" size="6515" compressedSize="2685">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/core/library.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/manifest.json" size="7178">
+  </module>
+  <module name="sap/ui/documentation/sdk/model/models.js" size="473" compressedSize="376">
+    <description>! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/util/DocumentationRouter.js" size="1799" compressedSize="805">
+    <description>Provides a customized router class for the 'documentation' app.</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/routing/Router.js"/>
+      <module name="sap/ui/core/routing/History.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js" size="1489" compressedSize="974">
+    <description>Provides a simple search feature</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/AboutDialog.fragment.xml" size="5389">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/NavContainer.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Title.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/layout/form/Form.js"/>
+      <module name="sap/ui/layout/form/FormContainer.js"/>
+      <module name="sap/ui/layout/form/FormElement.js"/>
+      <module name="sap/ui/layout/form/GridLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetail.view.xml" size="31292">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/ObjectAttribute.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/ExtensionPoint.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetail.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/ParamText.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml" size="1036">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml" size="3580">
+    <requires>
+      <module name="sap/m/FeedListItem.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml" size="1657">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml" size="4502">
+    <requires>
+      <module name="sap/m/FeedListItem.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml" size="6907">
+    <requires>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml" size="1856">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/Panel.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ApiMaster.view.xml" size="1169">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/StandardTreeItem.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/Tree.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ApiMaster.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/App.view.xml" size="4505">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/IconTabHeader.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Menu.js"/>
+      <module name="sap/m/MenuButton.js"/>
+      <module name="sap/m/MenuItem.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SplitApp.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/ExtensionPoint.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/App.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/Search.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Code.view.xml" size="1399">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/IconTabHeader.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/PageAccessibleLandmarkInfo.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Code.controller.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Controls.view.xml" size="9738">
+    <requires>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Controls.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ControlsMaster.view.xml" size="1554">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/StandardListItem.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/ControlsMaster.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/DemoApps.view.xml" size="385">
+    <requires>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/ui/core/ComponentContainer.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/demoapps/Component.js"/>
+      <module name="sap/ui/documentation/sdk/controller/DemoApps.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml" size="383">
+    <requires>
+      <module name="sap/m/MessagePage.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml" size="361">
+    <requires>
+      <module name="sap/m/MessagePage.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Downloads.view.xml" size="162">
+    <requires>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Downloads.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Empty.view.xml" size="93">
+    <requires>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Entity.view.xml" size="4067">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/FormattedText.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/ObjectAttribute.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Entity.controller.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml" size="3823">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/CheckBox.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/FormattedText.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/ObjectStatus.js"/>
+      <module name="sap/m/TextArea.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml" size="1514">
+    <requires>
+      <module name="sap/m/FlexBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Group.view.xml" size="583">
+    <requires>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Group.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/NotFound.view.xml" size="375">
+    <requires>
+      <module name="sap/m/MessagePage.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/BaseController.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml" size="504">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/ReleaseNotes.view.xml" size="378">
+    <requires>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Sample.view.xml" size="1677">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/PageAccessibleLandmarkInfo.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Sample.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/SearchPage.view.xml" size="4675">
+    <requires>
+      <module name="sap/m/FeedListItem.js"/>
+      <module name="sap/m/List.js"/>
+      <module name="sap/m/ObjectAttribute.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/SearchPage.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/TopicDetail.view.xml" size="1518">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/HTML.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetail.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml" size="6296">
+    <requires>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/MessageStrip.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/TopicMaster.view.xml" size="1074">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/StandardTreeItem.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/Tree.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/TopicMaster.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/Welcome.view.xml" size="14274">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Image.js"/>
+      <module name="sap/m/Page.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Icon.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/documentation/sdk/controller/Welcome.controller.js"/>
+      <module name="sap/ui/documentation/sdk/controls/TitleLink.js"/>
+      <module name="sap/ui/documentation/sdk/view/Footer.fragment.xml"/>
+      <module name="sap/ui/layout/BlockLayout.js"/>
+      <module name="sap/ui/layout/BlockLayoutCell.js"/>
+      <module name="sap/ui/layout/BlockLayoutRow.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/HorizontalLayout.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml" size="1349">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Switch.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/Item.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml" size="1809">
+    <requires>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsFilterItem.js"/>
+      <module name="sap/m/ViewSettingsItem.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+</library>

@@ -1,0 +1,605 @@
+{
+  "modules" : [
+    {
+      "name" : "sap/ui/documentation/demoapps/Component.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 925,
+      "compressedSize" : 629,
+      "required" : ["jquery.sap.global.js", "sap/ui/core/UIComponent.js", "sap/ui/documentation/demoapps/model/libraryData.js", "sap/ui/documentation/demoapps/model/models.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/all.js",
+      "size" : 396,
+      "compressedSize" : 313,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/controller/App.controller.js",
+      "description" : "global Promise",
+      "size" : 9294,
+      "compressedSize" : 3988,
+      "required" : ["jquery.sap.global.js", "sap/m/MessageBox.js", "sap/m/MessageToast.js", "sap/m/library.js", "sap/ui/Device.js", "sap/ui/core/mvc/Controller.js", "sap/ui/documentation/demoapps/model/formatter.js", "sap/ui/documentation/demoapps/model/sourceFileDownloader.js", "sap/ui/model/Filter.js", "sap/ui/model/FilterOperator.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/i18n/i18n.properties",
+      "size" : 1405,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/manifest.json",
+      "size" : 1159,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/model/formatter.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 1746,
+      "compressedSize" : 717,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/model/libraryData.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 5634,
+      "compressedSize" : 1665,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/library.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/model/models.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 473,
+      "compressedSize" : 376,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/model/sourceFileDownloader.js",
+      "description" : "global Promise",
+      "size" : 769,
+      "compressedSize" : 485,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/view/App.view.xml",
+      "size" : 4263,
+      "required" : ["sap/m/App.js", "sap/m/Button.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/InputListItem.js", "sap/m/Link.js", "sap/m/Page.js", "sap/m/ScrollContainer.js", "sap/m/SelectDialog.js", "sap/m/Text.js", "sap/ui/core/CustomData.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/demoapps/controller/App.controller.js", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/Grid.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml",
+      "size" : 1285,
+      "required" : ["sap/m/Label.js", "sap/m/Link.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml",
+      "size" : 275,
+      "required" : ["sap/ui/core/Fragment.js", "sap/ui/layout/BlockLayoutCell.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml",
+      "size" : 1372,
+      "required" : ["sap/m/Label.js", "sap/m/Link.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/Grid.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/library-preload.js",
+      "size" : 285670,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "jquery.sap.strings.js", "sap/m/App.js", "sap/m/Button.js", "sap/m/CheckBox.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Dialog.js", "sap/m/FeedListItem.js", "sap/m/FlexBox.js", "sap/m/FlexItemData.js", "sap/m/FormattedText.js", "sap/m/GroupHeaderListItem.js", "sap/m/HBox.js", "sap/m/IconTabFilter.js", "sap/m/IconTabHeader.js", "sap/m/Image.js", "sap/m/InputListItem.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/List.js", "sap/m/Menu.js", "sap/m/MenuButton.js", "sap/m/MenuItem.js", "sap/m/MessageBox.js", "sap/m/MessagePage.js", "sap/m/MessageStrip.js", "sap/m/MessageToast.js", "sap/m/NavContainer.js", "sap/m/ObjectAttribute.js", "sap/m/ObjectStatus.js", "sap/m/OverflowToolbar.js", "sap/m/OverflowToolbarLayoutData.js", "sap/m/Page.js", "sap/m/PageAccessibleLandmarkInfo.js", "sap/m/Panel.js", "sap/m/ScrollContainer.js", "sap/m/SearchField.js", "sap/m/Select.js", "sap/m/SelectDialog.js", "sap/m/SplitApp.js", "sap/m/SplitAppMode.js", "sap/m/StandardListItem.js", "sap/m/StandardTreeItem.js", "sap/m/Switch.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/TextArea.js", "sap/m/Title.js", "sap/m/ToggleButton.js", "sap/m/Toolbar.js", "sap/m/ToolbarSpacer.js", "sap/m/Tree.js", "sap/m/VBox.js", "sap/m/ViewSettingsDialog.js", "sap/m/ViewSettingsFilterItem.js", "sap/m/ViewSettingsItem.js", "sap/m/library.js", "sap/m/routing/Router.js", "sap/ui/Device.js", "sap/ui/base/Object.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/Control.js", "sap/ui/core/CustomData.js", "sap/ui/core/ExtensionPoint.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/core/Icon.js", "sap/ui/core/IconPool.js", "sap/ui/core/Item.js", "sap/ui/core/ResizeHandler.js", "sap/ui/core/Title.js", "sap/ui/core/UIComponent.js", "sap/ui/core/library.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/core/routing/History.js", "sap/ui/core/util/LibraryInfo.js", "sap/ui/documentation/sdk/controller/BaseController.controller.js", "sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/FixFlex.js", "sap/ui/layout/Grid.js", "sap/ui/layout/GridData.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js", "sap/ui/layout/form/Form.js", "sap/ui/layout/form/FormContainer.js", "sap/ui/layout/form/FormElement.js", "sap/ui/layout/form/GridLayout.js", "sap/ui/model/Filter.js", "sap/ui/model/FilterOperator.js", "sap/ui/model/Sorter.js", "sap/ui/model/json/JSONModel.js", "sap/uxap/ObjectPageSubSection.js"],
+      "includes" : ["sap/ui/documentation/demoapps/Component.js", "sap/ui/documentation/demoapps/all.js", "sap/ui/documentation/demoapps/controller/App.controller.js", "sap/ui/documentation/demoapps/manifest.json", "sap/ui/documentation/demoapps/model/formatter.js", "sap/ui/documentation/demoapps/model/libraryData.js", "sap/ui/documentation/demoapps/model/models.js", "sap/ui/documentation/demoapps/model/sourceFileDownloader.js", "sap/ui/documentation/demoapps/view/App.view.xml", "sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml", "sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml", "sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml", "sap/ui/documentation/library.js", "sap/ui/documentation/manifest.json", "sap/ui/documentation/sdk/Component.js", "sap/ui/documentation/sdk/controller/ApiDetail.controller.js", "sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js", "sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js", "sap/ui/documentation/sdk/controller/ApiMaster.controller.js", "sap/ui/documentation/sdk/controller/App.controller.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/Code.controller.js", "sap/ui/documentation/sdk/controller/Controls.controller.js", "sap/ui/documentation/sdk/controller/ControlsMaster.controller.js", "sap/ui/documentation/sdk/controller/DemoApps.controller.js", "sap/ui/documentation/sdk/controller/Downloads.controller.js", "sap/ui/documentation/sdk/controller/Entity.controller.js", "sap/ui/documentation/sdk/controller/ErrorHandler.js", "sap/ui/documentation/sdk/controller/Group.controller.js", "sap/ui/documentation/sdk/controller/MasterTreeBaseController.js", "sap/ui/documentation/sdk/controller/Sample.controller.js", "sap/ui/documentation/sdk/controller/SearchPage.controller.js", "sap/ui/documentation/sdk/controller/TopicDetail.controller.js", "sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js", "sap/ui/documentation/sdk/controller/TopicMaster.controller.js", "sap/ui/documentation/sdk/controller/Welcome.controller.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/documentation/sdk/controller/util/ConfigUtil.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/controller/util/EntityInfo.js", "sap/ui/documentation/sdk/controller/util/JSDocUtil.js", "sap/ui/documentation/sdk/controller/util/TreeUtil.js", "sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js", "sap/ui/documentation/sdk/controls/ParamText.js", "sap/ui/documentation/sdk/controls/Search.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/manifest.json", "sap/ui/documentation/sdk/model/models.js", "sap/ui/documentation/sdk/util/DocumentationRouter.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/documentation/sdk/view/AboutDialog.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetail.view.xml", "sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml", "sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml", "sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml", "sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiMaster.view.xml", "sap/ui/documentation/sdk/view/App.view.xml", "sap/ui/documentation/sdk/view/Code.view.xml", "sap/ui/documentation/sdk/view/Controls.view.xml", "sap/ui/documentation/sdk/view/ControlsMaster.view.xml", "sap/ui/documentation/sdk/view/DemoApps.view.xml", "sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml", "sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml", "sap/ui/documentation/sdk/view/Downloads.view.xml", "sap/ui/documentation/sdk/view/Empty.view.xml", "sap/ui/documentation/sdk/view/Entity.view.xml", "sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/documentation/sdk/view/Group.view.xml", "sap/ui/documentation/sdk/view/NotFound.view.xml", "sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml", "sap/ui/documentation/sdk/view/ReleaseNotes.view.xml", "sap/ui/documentation/sdk/view/Sample.view.xml", "sap/ui/documentation/sdk/view/SearchPage.view.xml", "sap/ui/documentation/sdk/view/TopicDetail.view.xml", "sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml", "sap/ui/documentation/sdk/view/TopicMaster.view.xml", "sap/ui/documentation/sdk/view/Welcome.view.xml", "sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml", "sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml"]
+    },
+    {
+      "name" : "sap/ui/documentation/library-preload.json",
+      "size" : 0,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "jquery.sap.strings.js", "sap/m/App.js", "sap/m/Button.js", "sap/m/CheckBox.js", "sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Dialog.js", "sap/m/FeedListItem.js", "sap/m/FlexBox.js", "sap/m/FlexItemData.js", "sap/m/FormattedText.js", "sap/m/GroupHeaderListItem.js", "sap/m/HBox.js", "sap/m/IconTabFilter.js", "sap/m/IconTabHeader.js", "sap/m/Image.js", "sap/m/InputListItem.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/List.js", "sap/m/Menu.js", "sap/m/MenuButton.js", "sap/m/MenuItem.js", "sap/m/MessageBox.js", "sap/m/MessagePage.js", "sap/m/MessageStrip.js", "sap/m/MessageToast.js", "sap/m/NavContainer.js", "sap/m/ObjectAttribute.js", "sap/m/ObjectStatus.js", "sap/m/OverflowToolbar.js", "sap/m/OverflowToolbarLayoutData.js", "sap/m/Page.js", "sap/m/PageAccessibleLandmarkInfo.js", "sap/m/Panel.js", "sap/m/ScrollContainer.js", "sap/m/SearchField.js", "sap/m/Select.js", "sap/m/SelectDialog.js", "sap/m/SplitApp.js", "sap/m/SplitAppMode.js", "sap/m/StandardListItem.js", "sap/m/StandardTreeItem.js", "sap/m/Switch.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/TextArea.js", "sap/m/Title.js", "sap/m/ToggleButton.js", "sap/m/Toolbar.js", "sap/m/ToolbarSpacer.js", "sap/m/Tree.js", "sap/m/VBox.js", "sap/m/ViewSettingsDialog.js", "sap/m/ViewSettingsFilterItem.js", "sap/m/ViewSettingsItem.js", "sap/m/library-preload.json", "sap/m/library.js", "sap/m/routing/Router.js", "sap/ui/Device.js", "sap/ui/base/Object.js", "sap/ui/core/Component.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/Control.js", "sap/ui/core/CustomData.js", "sap/ui/core/ExtensionPoint.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/core/Icon.js", "sap/ui/core/IconPool.js", "sap/ui/core/Item.js", "sap/ui/core/ResizeHandler.js", "sap/ui/core/Title.js", "sap/ui/core/UIComponent.js", "sap/ui/core/library-preload.json", "sap/ui/core/library.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/core/routing/History.js", "sap/ui/core/util/LibraryInfo.js", "sap/ui/documentation/sdk/controller/BaseController.controller.js", "sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/FixFlex.js", "sap/ui/layout/Grid.js", "sap/ui/layout/GridData.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js", "sap/ui/layout/form/Form.js", "sap/ui/layout/form/FormContainer.js", "sap/ui/layout/form/FormElement.js", "sap/ui/layout/form/GridLayout.js", "sap/ui/layout/library-preload.json", "sap/ui/model/Filter.js", "sap/ui/model/FilterOperator.js", "sap/ui/model/Sorter.js", "sap/ui/model/json/JSONModel.js", "sap/uxap/ObjectPageSubSection.js"],
+      "includes" : ["sap/ui/documentation/demoapps/Component.js", "sap/ui/documentation/demoapps/all.js", "sap/ui/documentation/demoapps/controller/App.controller.js", "sap/ui/documentation/demoapps/manifest.json", "sap/ui/documentation/demoapps/model/formatter.js", "sap/ui/documentation/demoapps/model/libraryData.js", "sap/ui/documentation/demoapps/model/models.js", "sap/ui/documentation/demoapps/model/sourceFileDownloader.js", "sap/ui/documentation/demoapps/view/App.view.xml", "sap/ui/documentation/demoapps/view/BlockLayoutCell.fragment.xml", "sap/ui/documentation/demoapps/view/BlockLayoutHeadlineCell.fragment.xml", "sap/ui/documentation/demoapps/view/BlockLayoutTeaserCell.fragment.xml", "sap/ui/documentation/library.js", "sap/ui/documentation/manifest.json", "sap/ui/documentation/sdk/Component.js", "sap/ui/documentation/sdk/controller/ApiDetail.controller.js", "sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js", "sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js", "sap/ui/documentation/sdk/controller/ApiMaster.controller.js", "sap/ui/documentation/sdk/controller/App.controller.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/Code.controller.js", "sap/ui/documentation/sdk/controller/Controls.controller.js", "sap/ui/documentation/sdk/controller/ControlsMaster.controller.js", "sap/ui/documentation/sdk/controller/DemoApps.controller.js", "sap/ui/documentation/sdk/controller/Downloads.controller.js", "sap/ui/documentation/sdk/controller/Entity.controller.js", "sap/ui/documentation/sdk/controller/ErrorHandler.js", "sap/ui/documentation/sdk/controller/Group.controller.js", "sap/ui/documentation/sdk/controller/MasterTreeBaseController.js", "sap/ui/documentation/sdk/controller/Sample.controller.js", "sap/ui/documentation/sdk/controller/SearchPage.controller.js", "sap/ui/documentation/sdk/controller/TopicDetail.controller.js", "sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js", "sap/ui/documentation/sdk/controller/TopicMaster.controller.js", "sap/ui/documentation/sdk/controller/Welcome.controller.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/documentation/sdk/controller/util/ConfigUtil.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/controller/util/EntityInfo.js", "sap/ui/documentation/sdk/controller/util/JSDocUtil.js", "sap/ui/documentation/sdk/controller/util/TreeUtil.js", "sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js", "sap/ui/documentation/sdk/controls/ParamText.js", "sap/ui/documentation/sdk/controls/Search.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/manifest.json", "sap/ui/documentation/sdk/model/models.js", "sap/ui/documentation/sdk/util/DocumentationRouter.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/documentation/sdk/view/AboutDialog.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetail.view.xml", "sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml", "sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml", "sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml", "sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml", "sap/ui/documentation/sdk/view/ApiMaster.view.xml", "sap/ui/documentation/sdk/view/App.view.xml", "sap/ui/documentation/sdk/view/Code.view.xml", "sap/ui/documentation/sdk/view/Controls.view.xml", "sap/ui/documentation/sdk/view/ControlsMaster.view.xml", "sap/ui/documentation/sdk/view/DemoApps.view.xml", "sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml", "sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml", "sap/ui/documentation/sdk/view/Downloads.view.xml", "sap/ui/documentation/sdk/view/Empty.view.xml", "sap/ui/documentation/sdk/view/Entity.view.xml", "sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/documentation/sdk/view/Group.view.xml", "sap/ui/documentation/sdk/view/NotFound.view.xml", "sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml", "sap/ui/documentation/sdk/view/ReleaseNotes.view.xml", "sap/ui/documentation/sdk/view/Sample.view.xml", "sap/ui/documentation/sdk/view/SearchPage.view.xml", "sap/ui/documentation/sdk/view/TopicDetail.view.xml", "sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml", "sap/ui/documentation/sdk/view/TopicMaster.view.xml", "sap/ui/documentation/sdk/view/Welcome.view.xml", "sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml", "sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml"]
+    },
+    {
+      "name" : "sap/ui/documentation/library.js",
+      "description" : "Initialization Code and shared classes of library sap.ui.documentation.",
+      "size" : 4312,
+      "compressedSize" : 1605,
+      "required" : ["jquery.sap.global.js", "sap/m/library.js", "sap/ui/core/library.js", "sap/ui/core/util/LibraryInfo.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/manifest.json",
+      "size" : 1205,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/Component.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 12396,
+      "compressedSize" : 5762,
+      "required" : ["jquery.sap.global.js", "sap/m/ColumnListItem.js", "sap/ui/Device.js", "sap/ui/core/UIComponent.js", "sap/ui/documentation/sdk/controller/ErrorHandler.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/documentation/sdk/controller/util/ConfigUtil.js", "sap/ui/documentation/sdk/model/models.js", "sap/ui/documentation/sdk/util/DocumentationRouter.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ApiDetail.controller.js",
+      "description" : "global location",
+      "size" : 39920,
+      "compressedSize" : 17160,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/controller/util/JSDocUtil.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/model/json/JSONModel.js", "sap/uxap/ObjectPageSubSection.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js",
+      "description" : "global location",
+      "size" : 7881,
+      "compressedSize" : 4072,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/JSDocUtil.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js",
+      "description" : "global location",
+      "size" : 1367,
+      "compressedSize" : 676,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ApiMaster.controller.js",
+      "description" : "global history",
+      "size" : 3277,
+      "compressedSize" : 1892,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/MasterTreeBaseController.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/App.controller.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 21681,
+      "compressedSize" : 13872,
+      "required" : ["jquery.sap.global.js", "sap/m/MessageBox.js", "sap/m/SplitAppMode.js", "sap/ui/Device.js", "sap/ui/core/Component.js", "sap/ui/core/Fragment.js", "sap/ui/core/IconPool.js", "sap/ui/core/ResizeHandler.js", "sap/ui/documentation/library.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/BaseController.js",
+      "description" : "global history",
+      "size" : 6479,
+      "compressedSize" : 2753,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/core/mvc/Controller.js", "sap/ui/core/routing/History.js", "sap/ui/documentation/library.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/controller/util/JSDocUtil.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Code.controller.js",
+      "description" : "global history",
+      "size" : 10339,
+      "compressedSize" : 5804,
+      "required" : ["jquery.sap.global.js", "sap/m/MessageToast.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Controls.controller.js",
+      "description" : "global history",
+      "size" : 1886,
+      "compressedSize" : 971,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ControlsMaster.controller.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 20321,
+      "compressedSize" : 10729,
+      "required" : ["jquery.sap.global.js", "jquery.sap.storage.js", "sap/m/GroupHeaderListItem.js", "sap/ui/Device.js", "sap/ui/core/Component.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/model/Filter.js", "sap/ui/model/Sorter.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/DemoApps.controller.js",
+      "description" : "global history",
+      "size" : 894,
+      "compressedSize" : 536,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Downloads.controller.js",
+      "description" : "global history",
+      "size" : 760,
+      "compressedSize" : 499,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Entity.controller.js",
+      "description" : "global location",
+      "size" : 10357,
+      "compressedSize" : 5237,
+      "required" : ["jquery.sap.global.js", "sap/ui/core/ComponentContainer.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/controller/util/EntityInfo.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/ErrorHandler.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 2313,
+      "compressedSize" : 1086,
+      "required" : ["jquery.sap.global.js", "sap/m/MessageBox.js", "sap/ui/base/Object.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Group.controller.js",
+      "description" : "global location",
+      "size" : 1020,
+      "compressedSize" : 538,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/MasterTreeBaseController.js",
+      "description" : "Common controller for the API Reference & Documentation master controllers (as they both use a tree)",
+      "size" : 5078,
+      "compressedSize" : 2215,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/TreeUtil.js", "sap/ui/model/Filter.js", "sap/ui/model/FilterOperator.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Sample.controller.js",
+      "description" : "global location",
+      "size" : 8452,
+      "compressedSize" : 4608,
+      "required" : ["jquery.sap.global.js", "sap/m/Text.js", "sap/ui/Device.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/HTML.js", "sap/ui/core/routing/History.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/ControlsInfo.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/SearchPage.controller.js",
+      "description" : "global location",
+      "size" : 8401,
+      "compressedSize" : 4571,
+      "required" : ["jquery.sap.global.js", "sap/m/GroupHeaderListItem.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/TopicDetail.controller.js",
+      "description" : "global location",
+      "size" : 3346,
+      "compressedSize" : 2065,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js", "sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js", "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js",
+      "description" : "global location",
+      "size" : 1235,
+      "compressedSize" : 678,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/TopicMaster.controller.js",
+      "description" : "global history",
+      "size" : 3946,
+      "compressedSize" : 2113,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/MasterTreeBaseController.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/Welcome.controller.js",
+      "description" : "global history",
+      "size" : 2168,
+      "compressedSize" : 1103,
+      "required" : ["jquery.sap.global.js", "sap/m/library.js", "sap/ui/Device.js", "sap/ui/documentation/sdk/controller/BaseController.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/APIInfo.js",
+      "description" : "Provides reuse functionality for reading documentation from api.json files (as created by the UI5 JSDoc3 template/plugin)",
+      "size" : 3740,
+      "compressedSize" : 1472,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/ConfigUtil.js",
+      "description" : "Utility class that facilitates route configuration handling",
+      "size" : 1983,
+      "compressedSize" : 1246,
+      "required" : ["jquery.sap.global.js", "sap/ui/base/Object.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/ControlsInfo.js",
+      "description" : "Provides information about 'explored' samples.",
+      "size" : 11259,
+      "compressedSize" : 5690,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/library.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/EntityInfo.js",
+      "description" : "Provides reuse functionality for reading documentation from metamodel entities",
+      "size" : 9682,
+      "compressedSize" : 4951,
+      "required" : ["jquery.sap.global.js", "sap/ui/documentation/sdk/controller/util/APIInfo.js", "sap/ui/documentation/sdk/thirdparty/jsanalyzer/ModuleAnalyzer.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/JSDocUtil.js",
+      "description" : "Provides reuse functionality for reading documentation from api.json files (as created by the UI5 JSDoc3 template/plugin)",
+      "size" : 2796,
+      "compressedSize" : 1097,
+      "required" : ["jquery.sap.global.js", "jquery.sap.strings.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/TreeUtil.js",
+      "description" : "Utility class that helps find the path to a specific node in a tree",
+      "size" : 1816,
+      "compressedSize" : 762,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controller/util/XML2JSONUtils.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 4551,
+      "compressedSize" : 1886,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controls/ParamText.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 901,
+      "compressedSize" : 542,
+      "required" : ["jquery.sap.global.js", "sap/m/Text.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controls/Search.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 7315,
+      "compressedSize" : 3120,
+      "required" : ["jquery.sap.global.js", "sap/m/Button.js", "sap/m/SearchField.js", "sap/m/library.js", "sap/ui/core/Control.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/controls/TitleLink.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 6515,
+      "compressedSize" : 2685,
+      "required" : ["jquery.sap.global.js", "sap/m/Title.js", "sap/m/Toolbar.js", "sap/ui/Device.js", "sap/ui/core/library.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/manifest.json",
+      "size" : 7178,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/model/models.js",
+      "description" : "! UI development toolkit for HTML5 (OpenUI5) (c) Copyright 2009-2017 SAP SE or an SAP affiliate company. Licensed under the Apache License, Version 2.0 - see LICENSE.txt.",
+      "size" : 473,
+      "compressedSize" : 376,
+      "required" : ["jquery.sap.global.js", "sap/ui/Device.js", "sap/ui/model/json/JSONModel.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/util/DocumentationRouter.js",
+      "description" : "Provides a customized router class for the 'documentation' app.",
+      "size" : 1799,
+      "compressedSize" : 805,
+      "required" : ["jquery.sap.global.js", "sap/m/routing/Router.js", "sap/ui/core/routing/History.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/util/ToggleFullScreenHandler.js",
+      "description" : "Provides a simple search feature",
+      "size" : 1489,
+      "compressedSize" : 974,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/AboutDialog.fragment.xml",
+      "size" : 5389,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/Link.js", "sap/m/NavContainer.js", "sap/m/Page.js", "sap/m/Text.js", "sap/m/VBox.js", "sap/ui/core/CustomData.js", "sap/ui/core/Fragment.js", "sap/ui/core/Title.js", "sap/ui/layout/VerticalLayout.js", "sap/ui/layout/form/Form.js", "sap/ui/layout/form/FormContainer.js", "sap/ui/layout/form/FormElement.js", "sap/ui/layout/form/GridLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetail.view.xml",
+      "size" : 31292,
+      "required" : ["sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/HBox.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/MessageStrip.js", "sap/m/ObjectAttribute.js", "sap/m/ObjectStatus.js", "sap/m/Page.js", "sap/m/Table.js", "sap/m/Text.js", "sap/m/VBox.js", "sap/ui/core/ExtensionPoint.js", "sap/ui/core/HTML.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ApiDetail.controller.js", "sap/ui/documentation/sdk/controls/ParamText.js", "sap/ui/layout/Grid.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailAnnotationsSummary.fragment.xml",
+      "size" : 1036,
+      "required" : ["sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/Table.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailDeprecated.view.xml",
+      "size" : 3580,
+      "required" : ["sap/m/FeedListItem.js", "sap/m/List.js", "sap/m/MessageStrip.js", "sap/m/Page.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailEventsSummary.fragment.xml",
+      "size" : 1657,
+      "required" : ["sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/ObjectStatus.js", "sap/m/Panel.js", "sap/m/Table.js", "sap/m/Title.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailExperimental.view.xml",
+      "size" : 4502,
+      "required" : ["sap/m/FeedListItem.js", "sap/m/List.js", "sap/m/MessageStrip.js", "sap/m/Page.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ApiDetailDeprecatedExperimental.controller.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailInitial.view.xml",
+      "size" : 6907,
+      "required" : ["sap/m/Image.js", "sap/m/Label.js", "sap/m/Page.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ApiDetailInitial.controller.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiDetailMethodsSummary.fragment.xml",
+      "size" : 1856,
+      "required" : ["sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/ObjectStatus.js", "sap/m/Panel.js", "sap/m/Table.js", "sap/m/Title.js", "sap/ui/core/Fragment.js", "sap/ui/core/HTML.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ApiMaster.view.xml",
+      "size" : 1169,
+      "required" : ["sap/m/Button.js", "sap/m/Page.js", "sap/m/SearchField.js", "sap/m/StandardTreeItem.js", "sap/m/Toolbar.js", "sap/m/Tree.js", "sap/ui/core/CustomData.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ApiMaster.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/App.view.xml",
+      "size" : 4505,
+      "required" : ["sap/m/Button.js", "sap/m/IconTabFilter.js", "sap/m/IconTabHeader.js", "sap/m/Image.js", "sap/m/Menu.js", "sap/m/MenuButton.js", "sap/m/MenuItem.js", "sap/m/ObjectStatus.js", "sap/m/OverflowToolbarLayoutData.js", "sap/m/Page.js", "sap/m/ScrollContainer.js", "sap/m/SplitApp.js", "sap/m/ToggleButton.js", "sap/m/ToolbarSpacer.js", "sap/ui/core/ExtensionPoint.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/App.controller.js", "sap/ui/documentation/sdk/controls/Search.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Code.view.xml",
+      "size" : 1399,
+      "required" : ["sap/m/Button.js", "sap/m/IconTabFilter.js", "sap/m/IconTabHeader.js", "sap/m/Page.js", "sap/m/PageAccessibleLandmarkInfo.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Code.controller.js", "sap/ui/layout/FixFlex.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Controls.view.xml",
+      "size" : 9738,
+      "required" : ["sap/m/Image.js", "sap/m/ScrollContainer.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Controls.controller.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ControlsMaster.view.xml",
+      "size" : 1554,
+      "required" : ["sap/m/Button.js", "sap/m/Label.js", "sap/m/List.js", "sap/m/Page.js", "sap/m/SearchField.js", "sap/m/StandardListItem.js", "sap/m/Toolbar.js", "sap/m/ToolbarSpacer.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/ControlsMaster.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/DemoApps.view.xml",
+      "size" : 385,
+      "required" : ["sap/m/Page.js", "sap/ui/core/ComponentContainer.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/demoapps/Component.js", "sap/ui/documentation/sdk/controller/DemoApps.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/DetailNoObjectsAvailable.view.xml",
+      "size" : 383,
+      "required" : ["sap/m/MessagePage.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/BaseController.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/DetailObjectNotFound.view.xml",
+      "size" : 361,
+      "required" : ["sap/m/MessagePage.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/BaseController.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Downloads.view.xml",
+      "size" : 162,
+      "required" : ["sap/m/Label.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Downloads.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Empty.view.xml",
+      "size" : 93,
+      "required" : ["sap/m/Label.js", "sap/ui/core/mvc/XMLView.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Entity.view.xml",
+      "size" : 4067,
+      "required" : ["sap/m/Column.js", "sap/m/ColumnListItem.js", "sap/m/FormattedText.js", "sap/m/HBox.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/ObjectAttribute.js", "sap/m/Table.js", "sap/m/Text.js", "sap/ui/core/HTML.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Entity.controller.js", "sap/ui/layout/Grid.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/FeedbackDialog.fragment.xml",
+      "size" : 3823,
+      "required" : ["sap/m/Button.js", "sap/m/CheckBox.js", "sap/m/Dialog.js", "sap/m/FlexItemData.js", "sap/m/FormattedText.js", "sap/m/HBox.js", "sap/m/Label.js", "sap/m/Link.js", "sap/m/MessageStrip.js", "sap/m/ObjectStatus.js", "sap/m/TextArea.js", "sap/m/ToggleButton.js", "sap/m/VBox.js", "sap/ui/core/Fragment.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Footer.fragment.xml",
+      "size" : 1514,
+      "required" : ["sap/m/FlexBox.js", "sap/m/Image.js", "sap/m/Link.js", "sap/ui/core/Fragment.js", "sap/ui/layout/BlockLayoutCell.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Group.view.xml",
+      "size" : 583,
+      "required" : ["sap/m/Page.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Group.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/NotFound.view.xml",
+      "size" : 375,
+      "required" : ["sap/m/MessagePage.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/BaseController.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ReleaseDialog.fragment.xml",
+      "size" : 504,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Text.js", "sap/ui/core/Fragment.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/ReleaseNotes.view.xml",
+      "size" : 378,
+      "required" : ["sap/ui/core/HTML.js", "sap/ui/core/mvc/XMLView.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Sample.view.xml",
+      "size" : 1677,
+      "required" : ["sap/m/Button.js", "sap/m/Page.js", "sap/m/PageAccessibleLandmarkInfo.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Sample.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/SearchPage.view.xml",
+      "size" : 4675,
+      "required" : ["sap/m/FeedListItem.js", "sap/m/List.js", "sap/m/ObjectAttribute.js", "sap/m/OverflowToolbar.js", "sap/m/Title.js", "sap/m/VBox.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/SearchPage.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/TopicDetail.view.xml",
+      "size" : 1518,
+      "required" : ["sap/m/Button.js", "sap/m/Text.js", "sap/ui/core/HTML.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/TopicDetail.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/TopicDetailInitial.view.xml",
+      "size" : 6296,
+      "required" : ["sap/m/Image.js", "sap/m/MessageStrip.js", "sap/m/Page.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/TopicDetailInitial.controller.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/TopicMaster.view.xml",
+      "size" : 1074,
+      "required" : ["sap/m/Button.js", "sap/m/Page.js", "sap/m/SearchField.js", "sap/m/StandardTreeItem.js", "sap/m/Toolbar.js", "sap/m/Tree.js", "sap/ui/core/CustomData.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/TopicMaster.controller.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/Welcome.view.xml",
+      "size" : 14274,
+      "required" : ["sap/m/Button.js", "sap/m/HBox.js", "sap/m/Image.js", "sap/m/Page.js", "sap/m/Text.js", "sap/ui/core/Fragment.js", "sap/ui/core/Icon.js", "sap/ui/core/mvc/XMLView.js", "sap/ui/documentation/sdk/controller/Welcome.controller.js", "sap/ui/documentation/sdk/controls/TitleLink.js", "sap/ui/documentation/sdk/view/Footer.fragment.xml", "sap/ui/layout/BlockLayout.js", "sap/ui/layout/BlockLayoutCell.js", "sap/ui/layout/BlockLayoutRow.js", "sap/ui/layout/Grid.js", "sap/ui/layout/GridData.js", "sap/ui/layout/HorizontalLayout.js", "sap/ui/layout/VerticalLayout.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/appSettingsDialog.fragment.xml",
+      "size" : 1349,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/m/HBox.js", "sap/m/Label.js", "sap/m/Select.js", "sap/m/Switch.js", "sap/m/VBox.js", "sap/ui/core/Fragment.js", "sap/ui/core/Item.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/documentation/sdk/view/viewSettingsDialog.fragment.xml",
+      "size" : 1809,
+      "required" : ["sap/m/ViewSettingsDialog.js", "sap/m/ViewSettingsFilterItem.js", "sap/m/ViewSettingsItem.js", "sap/ui/core/Fragment.js"],
+      "includes" : []
+    }
+  ]
+}
