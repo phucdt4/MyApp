@@ -17,8 +17,7 @@
          please add your own app URL to src. similar to "http://tenant;mode=present;view_id=appBuilding;appId=xxx"
         -->
 		
-<p><iframe id="iframe" style="border: none;" src="
-https://teamwork-1.eu10.hcs.cloud.sap/sap/fpa/ui/tenants/fe214/bo/application/B517B2F9EA4F2B55F814C4151ED8D73E?mode=embed" width="866px" height="600px">
+<p><iframe id="iframe" style="border: none;" src="https://teamwork-1.eu10.hcs.cloud.sap/sap/fpa/ui/tenants/fe214/app.html#;mode=present;view_id=appBuilding;appId=B517B2F9EA4F2B55F814C4151ED8D73E" width="866px" height="600px">
         </iframe></p>
         
         <script>
@@ -34,7 +33,7 @@ https://teamwork-1.eu10.hcs.cloud.sap/sap/fpa/ui/tenants/fe214/bo/application/B5
             }, false);
             // post message to the appBuilding iframe
             document.getElementById('sendBtn').onclick = function() {
-                window.frames[0].postMessage(document.getElementById("txt").value, 'https://opensap02.us10.sapanalytics.cloud');
+                window.frames[0].postMessage(document.getElementById("txt").value, 'https://teamwork-1.eu10.hcs.cloud.sap');
             }
         </script>
     </body>
